@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,6 +18,9 @@ namespace LessonBasic
         bool dogru = true;
         bool yanlis = false;
         [SerializeField] private Vector3 ucFloat = new Vector3(1, 2, 3);
+
+        // first lesson property
+        public int MyProperty { get; set; }  // Property'lerin türü farklı olabilir. (int, float..)
 
         void Start()
         {
